@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression
 st.write("""
 # Breast Cancer Prediction
 Data obtained from the [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data)
